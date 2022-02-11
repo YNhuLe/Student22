@@ -9,8 +9,15 @@ public class Student22 {
         printWord(scan);
         print();
         printAgain();
+        hate();
     }
     
+    
+      public static void hate(){
+        System.out.println("There are many changes");
+        
+        
+        }
     //another method
     public static void printAgain(){
 char[] list = new char[5];

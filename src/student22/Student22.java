@@ -9,18 +9,17 @@ public class Student22 {
         printWord(scan);
     }
     
-      public static void love(){
-          char[] myWord = new char[5];
-          myWord[0] = 'l';
-            myWord[1] = 'o';
-              myWord[2] = 'v';
-                myWord[3] = 'e';
-                
-                
-                System.out.println("Print out the word");
-                for( int i =0; i<myWord.length; i++){
-                 System.out.print(myWord[i] + " ");
-                }
+    //method for print and show array
+    public static void love(){
+        char[] myWord = new char[4];
+        myWord[0]= 'l';
+        myWord[1]= 'o';
+        myWord[2]= 'v';
+        myWord[3]= 'e';
+        for ( int i =0; i<myWord.length; i++){
+         System.out.print(myWord[i] + " ");
+            
+        }
         
         System.out.println("\nThis is the backward");
         for( int i =myWord.length-1 ; i>=0 ; i--){

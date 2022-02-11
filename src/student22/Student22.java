@@ -7,6 +7,7 @@ public class Student22 {
         Scanner scan = new Scanner(System.in);
         love();
         printWord(scan);
+        print();
     }
     
     
@@ -30,6 +31,11 @@ public class Student22 {
             System.out.print(myWord[i] +" ");
     }
         
+        public static void print(){
+        System.out.println("There are many changes");
+        
+        
+        }
     }
     //ask users for the word then print it forward and backward
     public static void printWord(Scanner scan){

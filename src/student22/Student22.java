@@ -9,6 +9,10 @@ public class Student22 {
         printWord(scan);
     }
     
+    
+    
+    
+    ///THere are many things different between  these two files
     //method for print and show array
     public static void love(){
         char[] myWord = new char[4];

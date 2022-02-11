@@ -12,7 +12,7 @@ public class Student22 {
         hate();
     }
     
-    
+  //this is the hate method///////////////////////////////////////////////////////////////////////////////////  
       public static void hate(){
         System.out.println("There are many changes");
         

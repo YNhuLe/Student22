@@ -8,9 +8,24 @@ public class Student22 {
         love();
         printWord(scan);
         print();
+        printAgain();
     }
     
-    
+    //another method
+    public static void printAgain(){
+char[] list = new char[5];
+        list[0] = 't';
+        list[1] = 'e';
+        list[2] = 'r';
+          list[2] = 's';
+          list[2] = 'p';
+        for( int i =0; i<list.length; i++){
+System.out.println(list[i] + " ");
+            
+        }
+            
+        
+    }
     
     
     ///THere are many things different between  these two files

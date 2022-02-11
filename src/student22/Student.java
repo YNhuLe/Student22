@@ -11,7 +11,7 @@ public class Student {
     
     
     //constructor
-    public Student(String studentId, String studentName, this.mark) {
+    public Student(String studentId, String studentName,int mark) {
         this.studentId = studentId;
         this.studentName = studentName;
         this.mark = mark;

@@ -7,6 +7,7 @@ public class Student22 {
         Scanner scan = new Scanner(System.in);
         love();
         printWord(scan);
+        hate();
     }
     
     //method for print and show array
@@ -46,5 +47,10 @@ public class Student22 {
         System.out.print(myLetter[i] + " ");
            
        }
+    }
+    
+    public static void hate(){
+     System.out.println("There is a message!!!");
+        
     }
 }
